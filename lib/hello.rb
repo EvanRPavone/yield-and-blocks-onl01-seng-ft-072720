@@ -1,10 +1,10 @@
 def hello_t(array)
-  counter = 0
-  while counter < array.length
-    yield(array[counter])
-    counter = counter + 1
-  end
-  array
+    i = 0
+    while i < array.length
+      yield(array[i])
+      i = i + 1
+    end
+    array
 end
 
 # call your method here!
